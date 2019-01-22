@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class StagiaireDao extends MaConnection {
+public class StagiaireDao extends MaConnextion {
 
 	static public void insert(Stagiaire stg) {
 
